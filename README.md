@@ -3,7 +3,7 @@
 ## Quick Start (3 Commands)
 
 ```bash
-
+1- bash install_mini_soar.sh
 #  Start services
 cd /opt/ioc-blocker && sudo bash master_run.sh
 ```
