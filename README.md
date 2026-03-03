@@ -3,13 +3,8 @@
 ## Quick Start (3 Commands)
 
 ```bash
-# 1. Make installer executable
-chmod +x deploy_enhanced.sh
 
-# 2. Run installer
-sudo bash deploy_enhanced.sh
-
-# 3. Start services
+#  Start services
 cd /opt/ioc-blocker && sudo bash master_run.sh
 ```
 
