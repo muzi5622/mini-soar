@@ -1,8 +1,31 @@
-[2026-03-03 01:25:39,758] INFO       IOC Blocker daemon started (interval: 30s)
-[2026-03-03 01:25:39,762] INFO       nftables table ready
-[2026-03-03 01:25:39,768] INFO       Blocked 26 new IPs
-[2026-03-03 01:25:39,769] INFO       Total IPs being blocked: 26
-[2026-03-03 01:26:09,773] INFO       Blocked 26 new IPs
-[2026-03-03 01:26:09,773] INFO       Total IPs being blocked: 26
-[2026-03-03 01:26:39,778] INFO       Blocked 26 new IPs
-[2026-03-03 01:26:39,778] INFO       Total IPs being blocked: 26
+[2026-03-03 02:05:47,579] INFO       ============================================================
+[2026-03-03 02:05:47,579] INFO       IOC BLOCKER - Starting daemon (INPUT + OUTPUT blocking)
+[2026-03-03 02:05:47,579] INFO       ============================================================
+[2026-03-03 02:05:47,579] INFO       Initializing nftables...
+[2026-03-03 02:05:47,579] INFO         [1/7] Flushing rules...
+[2026-03-03 02:05:48,586] INFO         [2/7] Creating table...
+[2026-03-03 02:05:49,089] INFO         [3/7] Creating set...
+[2026-03-03 02:05:49,592] INFO         [4/7] Cleaning old chains...
+[2026-03-03 02:05:50,109] INFO         [5/7] Creating INPUT chain (priority -100)...
+[2026-03-03 02:05:50,112] INFO         ✓ INPUT chain created
+[2026-03-03 02:05:50,612] INFO         [6/7] Creating OUTPUT chain (priority -100)...
+[2026-03-03 02:05:50,615] INFO         ✓ OUTPUT chain created
+[2026-03-03 02:05:51,115] INFO         [7/7] Adding DROP rules...
+[2026-03-03 02:05:51,121] INFO         ✓ Both DROP rules added
+[2026-03-03 02:05:51,121] INFO       ✓ nftables initialized successfully (INPUT + OUTPUT blocking)
+[2026-03-03 02:05:53,121] INFO       [Cycle 1] Processing IOCs
+[2026-03-03 02:05:53,122] INFO       IPs: 22 direct + 8 resolved = 30 total
+[2026-03-03 02:05:53,125] INFO       ✓ Added 30 IPs to nftables
+[2026-03-03 02:05:53,128] INFO       Blocked in nftables: 90
+[2026-03-03 02:06:23,133] INFO       [Cycle 2] Processing IOCs
+[2026-03-03 02:06:23,134] INFO       IPs: 22 direct + 8 resolved = 30 total
+[2026-03-03 02:06:23,137] INFO       ✓ Added 30 IPs to nftables
+[2026-03-03 02:06:23,140] INFO       Blocked in nftables: 90
+[2026-03-03 02:06:53,145] INFO       [Cycle 3] Processing IOCs
+[2026-03-03 02:06:53,145] INFO       IPs: 22 direct + 8 resolved = 30 total
+[2026-03-03 02:06:53,149] INFO       ✓ Added 30 IPs to nftables
+[2026-03-03 02:06:53,151] INFO       Blocked in nftables: 90
+[2026-03-03 02:07:23,156] INFO       [Cycle 4] Processing IOCs
+[2026-03-03 02:07:23,157] INFO       IPs: 22 direct + 8 resolved = 30 total
+[2026-03-03 02:07:23,160] INFO       ✓ Added 30 IPs to nftables
+[2026-03-03 02:07:23,163] INFO       Blocked in nftables: 90

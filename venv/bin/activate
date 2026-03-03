@@ -39,10 +39,10 @@ deactivate nondestructive
 if [ "${OSTYPE:-}" = "cygwin" ] || [ "${OSTYPE:-}" = "msys" ] ; then
     # transform D:\path\to\venv to /d/path/to/venv on MSYS
     # and to /cygdrive/d/path/to/venv on Cygwin
-    export VIRTUAL_ENV=$(cygpath /opt/ioc-blocker/venv)
+    export VIRTUAL_ENV=$(cygpath /opt/mini-soar/venv)
 else
     # use the path as-is
-    export VIRTUAL_ENV=/opt/ioc-blocker/venv
+    export VIRTUAL_ENV=/opt/mini-soar/venv
 fi
 
 _OLD_VIRTUAL_PATH="$PATH"
