@@ -1,0 +1,75 @@
+ * Tip: There are .env files present. Install python-dotenv to use them.
+ * Serving Flask app 'dashboard_enhanced'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.4:5000
+[33mPress CTRL+C to quit[0m
+59.103.113.205 - - [03/Mar/2026 01:25:48] "GET / HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:25:49] "GET /api/stats HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:25:49] "GET /api/recent-blocks HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:25:50] "GET /api/recent-blocks HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:25:50] "GET /api/domains HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:25:53] "GET /api/ips HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:25:54] "GET /api/stats HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:25:54] "GET /api/recent-blocks HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:25:54] "GET /api/recent-blocks HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:25:54] "GET /api/activity HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:25:57] "GET /api/allowlist HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:25:59] "GET /api/stats HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:25:59] "GET /api/recent-blocks HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:25:59] "GET /api/recent-blocks HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:04] "GET /api/stats HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:04] "GET /api/recent-blocks HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:04] "GET /api/recent-blocks HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:09] "GET /api/stats HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:09] "GET /api/recent-blocks HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:09] "GET /api/recent-blocks HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:10] "GET /api/stats HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:10] "GET /api/recent-blocks HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:12] "GET /api/stats HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:12] "GET /api/recent-blocks HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:13] "GET /api/stats HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:13] "GET /api/recent-blocks HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:13] "GET /api/stats HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:13] "GET /api/recent-blocks HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:14] "GET /api/stats HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:14] "GET /api/recent-blocks HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:14] "GET /api/recent-blocks HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:19] "GET /api/stats HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:19] "GET /api/recent-blocks HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:19] "GET /api/recent-blocks HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:24] "GET /api/recent-blocks HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:24] "GET /api/stats HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:24] "GET /api/recent-blocks HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:29] "GET /api/recent-blocks HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:29] "GET /api/stats HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:29] "GET /api/recent-blocks HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:34] "GET /api/recent-blocks HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:34] "GET /api/stats HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:34] "GET /api/recent-blocks HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:36] "GET /api/domains HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:37] "GET /api/ips HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:38] "GET /api/domains HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:39] "GET /api/stats HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:39] "GET /api/recent-blocks HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:39] "GET /api/recent-blocks HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:44] "GET /api/stats HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:44] "GET /api/recent-blocks HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:44] "GET /api/recent-blocks HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:49] "GET /api/stats HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:49] "GET /api/recent-blocks HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:49] "GET /api/recent-blocks HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:49] "GET /api/ips HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:52] "GET /api/activity HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:54] "GET /api/recent-blocks HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:54] "GET /api/stats HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:54] "GET /api/recent-blocks HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:56] "GET /api/allowlist HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:59] "GET /api/recent-blocks HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:59] "GET /api/stats HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:26:59] "GET /api/recent-blocks HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:27:04] "GET /api/stats HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:27:04] "GET /api/recent-blocks HTTP/1.1" 200 -
+59.103.113.205 - - [03/Mar/2026 01:27:04] "GET /api/recent-blocks HTTP/1.1" 200 -

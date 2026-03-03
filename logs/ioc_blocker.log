@@ -1,0 +1,8 @@
+[2026-03-03 01:25:39,758] INFO       IOC Blocker daemon started (interval: 30s)
+[2026-03-03 01:25:39,762] INFO       nftables table ready
+[2026-03-03 01:25:39,768] INFO       Blocked 26 new IPs
+[2026-03-03 01:25:39,769] INFO       Total IPs being blocked: 26
+[2026-03-03 01:26:09,773] INFO       Blocked 26 new IPs
+[2026-03-03 01:26:09,773] INFO       Total IPs being blocked: 26
+[2026-03-03 01:26:39,778] INFO       Blocked 26 new IPs
+[2026-03-03 01:26:39,778] INFO       Total IPs being blocked: 26
